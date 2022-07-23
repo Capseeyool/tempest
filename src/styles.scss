@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    height: 200px;
+
+    &>* {
+        height: 200px;
+    }
+}
+
+.header-bg {
+    position: absolute;
+
+    background-image: url('assets/header.jpg');
+    background-position: left bottom;
+    opacity: 0.5;
+}
